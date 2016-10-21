@@ -24,7 +24,6 @@ public class StandarSearchIndex implements SearchIndex {
 	
 	@Inject
 	public StandarSearchIndex(@Named("images.index.folder") File imageIndexFolder) {
-		System.out.println( imageIndexFolder );
 		this.imageIndexFolder = imageIndexFolder;
 	}
 	
